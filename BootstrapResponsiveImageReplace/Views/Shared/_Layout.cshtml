@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    
+        @RenderBody()
+
+    <script src="~/Scripts/jquery-1.11.1.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/ResponsiveImageReplace.js"></script>
+    <script type="text/javascript">
+        /// Demo example init code
+        /// <reference path="__" />
+        $(function() {
+
+            $(".imageList").ResponsiveImageReplace();
+
+        });
+
+
+    </script>
+</body>
+</html>
