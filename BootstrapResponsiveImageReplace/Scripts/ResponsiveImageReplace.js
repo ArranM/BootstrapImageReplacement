@@ -17,7 +17,7 @@
     $.fn.ResponsiveImageReplace = function () {
 
         var envs = ["xs", "sm", "md", "lg"],
-         doc = window.document,
+         doc = window.document, mediaQueryState,
          getMediaQueryState = function () {
              var temp = doc.createElement("div");
              doc.body.appendChild(temp);
@@ -53,19 +53,17 @@
              }
          };
 
-        for (var t = 0, len = $(this).length; t < len; t++) {
+        var that = $(this);
 
-            var $thisObj = $(this[t]),
-                mediaQueryState = getMediaQueryState();
-
-            getImageParams($thisObj, mediaQueryState);
-
-            $(window).resize(function () {
-                if (mediaQueryState !== getMediaQueryState()) {
-                    mediaQueryState = getMediaQueryState();
-                    getImageParams($thisObj, mediaQueryState);
+        $(window).resize(function () {
+            var mediaQueryLive = getMediaQueryState();
+            if (mediaQueryState !== mediaQueryLive) {
+                mediaQueryState = mediaQueryLive;
+                for (var t = 0, len = $(that).length; t < len; t++) {
+                    getImageParams($(that[t]), mediaQueryState);
                 }
-            });
-        }
+            };
+
+        }).resize();
     };
 })(jQuery);
