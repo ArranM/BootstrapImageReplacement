@@ -53,17 +53,16 @@
              }
          };
 
-        var that = $(this);
+        var thisObj = $(this);
 
         $(window).resize(function () {
             var mediaQueryLive = getMediaQueryState();
             if (mediaQueryState !== mediaQueryLive) {
                 mediaQueryState = mediaQueryLive;
-                for (var t = 0, len = $(that).length; t < len; t++) {
-                    getImageParams($(that[t]), mediaQueryState);
+                for (var t = 0, len = $(thisObj).length; t < len; t++) {
+                    getImageParams($(thisObj[t]), mediaQueryState);
                 }
-            };
-
+            }
         }).resize();
     };
 })(jQuery);
