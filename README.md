@@ -7,9 +7,7 @@ Example usage in youe javascript file:
 
 <code>
 $(function() {
-
     $("[data-action=\"bir\"] img").ImageReplace(); 
-    
 });
 </code>
 
