@@ -1,4 +1,4 @@
-Bootstrap Image Replacment
+Bootstrap Image Replacement
 ========================
 
 Quickly download different size images depending on current media query view. 
