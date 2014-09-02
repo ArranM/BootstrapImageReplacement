@@ -26,7 +26,10 @@
                 for (var i = envs.length - 1; i >= 0; i--) {
                     var env = envs[i];
                     dv.className = "hidden-" + env;
-                    if (dv.offsetParent === null) {
+
+                    //Due to IE issues eith .offsetParent. Now use the slow isHidden
+                    if($(dv).is(':hidden')){
+                        //if (dv.offsetParent === null) {
                         doc.body.removeChild(dv);
                         return env;
                     }
