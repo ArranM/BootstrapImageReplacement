@@ -11,7 +11,7 @@ $(function() {
 
 
 Example usage in your html file:
-<code>
+
 
             <img data-xs-src="http://placehold.it/50&text=Extra Small" data-xs-width="50" data-xs-height="50"
                  data-sm-src="http://placehold.it/100&text=Small" data-sm-width="100" data-sm-height="100"
@@ -29,4 +29,4 @@ No width or height set on Large so it will just default to natural size
                  data-lg-src="http://placehold.it/500&text=Large" data-lg-width="" data-lg-height=""
                  src="" alt="demo image2" class="img-responsive" />
 
-    </code>
+
