@@ -5,7 +5,7 @@ Quickly download different size images depending on current media query view.
 
 Javascript function can be found here:
 
-BootstrapImageReplace/Scripts/ImageReplace.js
+<pre>BootstrapImageReplace/Scripts/ImageReplace.js</pre>
 
 Example usage in your javascript file: 
 
