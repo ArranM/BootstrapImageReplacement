@@ -5,10 +5,13 @@ Quickly download different size images depending on current media query view.
 
 Example usage in youe javascript file: 
 
+<code>
 $(function() {
+
     $("[data-action=\"bir\"] img").ImageReplace(); 
     
 });
+</code>
 
 
 Example usage in your html file:
