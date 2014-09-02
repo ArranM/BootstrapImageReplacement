@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace BootstrapResponsiveImageReplace.Controllers
+namespace BootstrapImageReplace.Controllers
 {
     public class HomeController : Controller
     {
