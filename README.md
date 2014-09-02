@@ -3,7 +3,7 @@ Bootstrap Image Replacment
 
 Quickly download different size images depending on current media query view. 
 
-Javascript function can be found here:
+Javascript function can be found here in this repo:
 
 <pre>BootstrapImageReplace/Scripts/ImageReplace.js</pre>
 
