@@ -21,7 +21,7 @@ Example usage in your html file:
 
 OR
 
-No width or height set on Large so it will just default to natural size
+No width or height set, so it will just default to natural size. You can mix and match
 
             <img data-xs-src="http://ads.weloveanycar.com/imagead/215040/800/front" data-xs-width="" data-xs-height=""
                  data-sm-src="http://placehold.it/100&text=Small" data-sm-width="" data-sm-height=""
