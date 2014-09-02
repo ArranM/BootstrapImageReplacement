@@ -11,15 +11,15 @@
  *
  * Date: 2014-08-08T21:08Z
  */
-(function ($) {
+(function($) {
     "use strict";
 
-    $.fn.ImageReplace = function () {
+    $.fn.ImageReplace = function() {
 
         var envs = ["xs", "sm", "md", "lg"],
             doc = window.document,
             mediaQueryState,
-            getMediaQueryState = function () {
+            getMediaQueryState = function() {
                 var dv = doc.createElement("div");
                 doc.body.appendChild(dv);
 
@@ -28,7 +28,7 @@
                     dv.className = "hidden-" + env;
 
                     //Due to IE issues eith .offsetParent. Now use the slow isHidden
-                    if($(dv).is(':hidden')){
+                    if ($(dv).is(':hidden')) {
                         //if (dv.offsetParent === null) {
                         doc.body.removeChild(dv);
                         return env;
@@ -36,7 +36,7 @@
                 }
                 return "";
             },
-            getImage = function (thisObj, src, wd, hi) {
+            getImage = function(thisObj, src, wd, hi) {
 
                 var newImg = new Image();
 
@@ -45,7 +45,7 @@
                     thisObj.prop("width", wd);
                     thisObj.prop("height", hi);
                 } else {
-                    newImg.onload = function () {
+                    newImg.onload = function() {
                         thisObj.prop("width", newImg.width);
                         thisObj.prop("height", newImg.height);
                     }
@@ -55,7 +55,7 @@
 
         var that = $(this);
 
-        $(window).on("load resize", function () {
+        $(window).on("load resize", function() {
             var mediaQueryLive = getMediaQueryState();
             if (mediaQueryState !== mediaQueryLive) {
                 mediaQueryState = mediaQueryLive;

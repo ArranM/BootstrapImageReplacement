@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapImageReplace", "BootstrapResponsiveImageReplace\BootstrapImageReplace.csproj", "{AC801A16-9009-4326-AFA3-4881A2935C68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapImageReplace", "BootstrapImageReplace\BootstrapImageReplace.csproj", "{AC801A16-9009-4326-AFA3-4881A2935C68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
