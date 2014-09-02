@@ -25,7 +25,7 @@ OR
 
 No width or height set, so it will just default to natural size. You can mix and match
 
-            <img data-xs-src="http://ads.weloveanycar.com/imagead/215040/800/front" data-xs-width="" data-xs-height=""
+            <img data-xs-src="http://placehold.it/50&text=Extra Small" data-xs-width="" data-xs-height=""
                  data-sm-src="http://placehold.it/100&text=Small" data-sm-width="" data-sm-height=""
                  data-md-src="http://placehold.it/300&text=Medium" data-md-width="" data-md-height=""
                  data-lg-src="http://placehold.it/500&text=Large" data-lg-width="" data-lg-height=""
