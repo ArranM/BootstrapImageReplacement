@@ -11,7 +11,7 @@ $(function() {
 
 
 Example usage in your html file:
-<pre>
+<code>
 <div class="row">
         <div class="col-md-6" data-action="bir">
             <p>Width and height set</p>
@@ -30,4 +30,4 @@ Example usage in your html file:
                  src="" alt="demo image2" class="img-responsive" />
         </div>
     </div>
-    </pre>
+    </code>
