@@ -5,8 +5,9 @@ Quickly download different size images depending on current media query view.
 
 Example usage in youe javascript file: 
 
-$(function() { 
+$(function() {
     $("[data-action=\"bir\"] img").ImageReplace(); 
+    
 });
 
 
@@ -17,7 +18,7 @@ Example usage in your html file:
                  data-sm-src="http://placehold.it/100&text=Small" data-sm-width="100" data-sm-height="100"
                  data-md-src="http://placehold.it/300&text=Medium" data-md-width="300" data-ms-height="300"
                  data-lg-src="http://placehold.it/500&text=Large" data-lg-width="500" data-lg-height="500"
-                 src="" alt="demo image1">
+                 src="" alt="demo image1" class="img-responsive">
 
 OR
 
