@@ -96,7 +96,7 @@
     <None Include="Scripts\jquery-1.11.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.11.1.js" />
     <Content Include="Scripts\jquery-1.11.1.min.js" />
-    <Content Include="Scripts\ResponsiveImageReplace.js" />
+    <Content Include="Scripts\ImageReplace.js" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-1.11.1.min.map" />
   </ItemGroup>

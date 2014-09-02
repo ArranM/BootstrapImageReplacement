@@ -8,20 +8,15 @@
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
 </head>
 <body>
-    
-        @RenderBody()
-
+    @RenderBody()
     <script src="~/Scripts/jquery-1.11.1.js"></script>
     <script src="~/Scripts/bootstrap.js"></script>
-    <script src="~/Scripts/ResponsiveImageReplace.js"></script>
+    <script src="~/Scripts/ImageReplace.js"></script>
     <script type="text/javascript">
-        /// Demo example init code
-        /// <reference path="__" />
 
-        $(function() {
-            $("[data-action=\"brir\"] img").ResponsiveImageReplace();
+        $(function () {
+            $("[data-action=\"bir\"] img").ImageReplace();
         });
-
 
     </script>
 </body>
