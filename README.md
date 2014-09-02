@@ -3,7 +3,7 @@ BootstrapImageReplacment
 
 Quickly download different size images depending on current media query view. 
 
-Example usage in youe javascript file: 
+Example usage in your javascript file: 
 
 <code>
 $(function() {
@@ -11,10 +11,7 @@ $(function() {
 });
 </code>
 
-
 Example usage in your html file:
-
-<code>
 
         <div  data-action="bir">
             <p>Width and height set</p>
@@ -31,7 +28,3 @@ Example usage in your html file:
                  data-lg-src="http://placehold.it/500&text=Large" data-lg-width="" data-lg-height=""
                  src="" alt="demo image2" class="img-responsive" />
         </div>
-
-</code>
-
-
